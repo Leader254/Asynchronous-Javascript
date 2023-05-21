@@ -166,10 +166,10 @@
 // finally method
 // The finally() method returns a Promise. When the promise is settled, i.e either fulfilled or rejected, the specified callback function is executed.
 
-const newValue = new Promise((resolve,reject) =>{
-    resolve("Promise resolved successfully")
-});
+// const newValue = new Promise((resolve,reject) =>{
+//     resolve("Promise resolved successfully")
+// });
 
-newValue.finally(greet= () =>{
-    console.log("Hello World")
-})
+// newValue.finally(greet= () =>{
+//     console.log("Hello World")
+// })
